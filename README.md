@@ -3,7 +3,7 @@
 
 
 ## Deputado-Api
-This project consumes the API that provides information about the deputies of Rio Grande do Sul (RS), including data on their expenses. It allows detailed queries of deputies, such as name, party, and the expenses associated with each one, offering a clear and accessible view of public spending.
+This project consumes the API that provides information about the deputies of Rio Grande do Sul (RS), including their expenses. It allows detailed queries of deputies, such as name, political party, and the expenses associated with each one, offering a clear and accessible view of public spending.
 
 
 ## Technology 
