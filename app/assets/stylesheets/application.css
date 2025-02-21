@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #363636;
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+}
+
+p, h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-size: 14px;
+
+}
+
+li {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+
+
+.deputado-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 65%;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.deputado {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 120px;
+  border: 2px solid gray;
+  margin-top: 20px;
+
+}
+
+.partido-deputado, .estado-deputado {
+  font-size: 14px;
+}
+
+
+
+.deputado img {
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  max-height: 120px;
+}
+
+
+.deputado-perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nome-deputado {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #363636;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.deputado-perfil .nome-deputado-card {
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  text-align: center;
+ 
+}
+
+
+.deputado-perfil .partido-deputado {
+  font-size: 1rem;
+  color: #363636;
+  font-weight: 400;
+}
+
+
+
+
+.showpage-nomedeputado {
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+
+
+.showpage-deputado-perfil {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.showpage-estado-deputado, 
+.showpage-partido-deputado, .showpage-despesa-deputado, .showpage-nome {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+

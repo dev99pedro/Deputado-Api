@@ -1,0 +1,12 @@
+<div class="deputado-container">
+<% @deputado.each do |deputado| %>
+    <div class="deputado">
+        <%= image_tag deputado.imagem, alt: "Imagem de #{deputado.nomedeputado}" %>
+          <p class="nome-deputado"> <%= deputado.nomedeputado %> </p>
+          <p class="partido-deputado"> <strong><%= deputado.partido %></strong> </p>
+          <p class="estado-deputado"> <%= deputado.estado %> </p>
+          <%= link_to 'Ver despesas', deputado_path(deputado) %>
+        
+    </div>
+    <% end %>
+</div>

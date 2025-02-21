@@ -1,0 +1,26 @@
+<h1 class="showpage-nomedeputado"><%=@deputado.nomedeputado%> </h1>
+<div class="showpage-deputado-perfil">
+    <div>
+         <%= image_tag @deputado.imagem, alt: "Imagem de #{@deputado.nomedeputado}", style: "max-width: 250px; max-height: 250px;" %>
+    </div>
+    <div >
+      <div>
+        <p class="showpage-nome"><strong>Nome Deputado:</strong> <%=@deputado.nomedeputado%> </p>
+        <p class="showpage-estado-deputado"><strong>Estado:</strong> <%=@deputado.estado%></p>
+        <p class="showpage-partido-deputado"><strong>Partido:</strong> <%=@deputado.partido%></p>
+        <p class="showpage-despesa-deputado"><strong>Despesas:</strong> <%= number_to_currency(@valorDas20Despesas, unit: "R$", delimiter: ".", separator: ",") %></p>
+      </div>
+      <%# Hotwire sendo usado aqui para mostrar a lista sem precisar carregar a página %>
+      <div data-controller="log-button" data-anyfornecedores="<%= @fornecedores.to_json %>">
+        <button data-action="click->log-button#logMessage">
+        Clique para ver os fornecedores!
+        </button>
+        
+        <div data-target="log-button.fornecedoresList">
+        </div>
+   
+      </div>
+      <%# end %>
+    </div>
+</div>
+
