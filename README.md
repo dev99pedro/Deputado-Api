@@ -34,7 +34,7 @@ rails s
 
 ## How to use
 
-## View the deputies of Rio Grande do Sul (RS) by clicking on them to display the total expense value along with the suppliers, offering an interactive way to explore the deputies' expenses.
+View the deputies of Rio Grande do Sul (RS) by clicking on them to display the total expense value along with the suppliers, offering an interactive way to explore the deputies' expenses.
 
 ![Initial image](https://github.com/dev99pedro/Deputado-Api/blob/main/app/assets/stylesheets/a2.png)
 
